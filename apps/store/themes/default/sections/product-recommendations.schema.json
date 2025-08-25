@@ -1,0 +1,10 @@
+{
+  "name": "Product Recommendations",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Section Heading", "default": "You may also like" },
+    { "type": "range", "id": "max_products", "label": "Max Products", "min": 2, "max": 12, "step": 1, "default": 6 },
+    { "type": "checkbox", "id": "show_prices", "label": "Show Prices", "default": true },
+    { "type": "checkbox", "id": "show_add_to_cart", "label": "Show Add to Cart", "default": false },
+    { "type": "range", "id": "columns", "label": "Grid Columns", "min": 2, "max": 6, "default": 4 }
+  ]
+}

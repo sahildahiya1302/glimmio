@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}, "blocks": []},
+    "header": {"type": "header", "settings": {}, "blocks": []},
+    "hero": {
+      "type": "hero-banner",
+      "settings": {"heading":"Article","subheading":"Read more","background_image":"uploads/banners/article.jpg"}
+    },
+    "breadcrumbs": {"type": "breadcrumbs", "settings": {}},
+    "blog_post": {"type": "blog-posts", "settings": {}},
+    "promo_grid": {"type": "promo-grid", "settings": {"heading":"Shop the Look"}, "blocks": []},
+    "newsletter": {"type": "newsletter", "settings": {}},
+    "recently_viewed": {"type": "recently-viewed", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","hero","breadcrumbs","blog_post","promo_grid","newsletter","recently_viewed","footer"]
+}

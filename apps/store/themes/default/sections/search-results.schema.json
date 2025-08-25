@@ -1,0 +1,23 @@
+{
+  "name": "Search Results",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_prefix",
+      "label": "Heading Prefix",
+      "default": "Search Results for"
+    },
+    {
+      "type": "range",
+      "id": "max_results",
+      "label": "Maximum Results",
+      "default": 30,
+      "min": 5,
+      "max": 100
+    },
+    { "type": "range", "id": "columns_desktop", "label": "Columns on Desktop", "default": 4, "min": 2, "max": 6 },
+    { "type": "range", "id": "columns_mobile", "label": "Columns on Mobile", "default": 2, "min": 1, "max": 4 },
+    { "type": "checkbox", "id": "show_add_to_cart", "label": "Show Add to Cart", "default": false },
+    { "type": "text", "id": "not_found_text", "label": "No Results Message", "default": "No results found." }
+  ]
+}

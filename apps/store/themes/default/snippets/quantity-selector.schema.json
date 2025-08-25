@@ -1,0 +1,14 @@
+{
+  "name": "Quantity Selector",
+  "settings": [
+    {"type": "text", "id": "name", "label": "Input Name", "default": "quantity"},
+    {"type": "number", "id": "value", "label": "Initial Value", "default": 1},
+    {"type": "number", "id": "min", "label": "Minimum Value", "default": 1},
+    {"type": "number", "id": "max", "label": "Maximum Value", "default": 100},
+    {"type": "number", "id": "step", "label": "Step", "default": 1},
+    {"type": "checkbox", "id": "show_label", "label": "Show Label", "default": false}
+  ],
+  "presets": {
+    "default": {"settings": {"name": "quantity", "value": 1}}
+  }
+}

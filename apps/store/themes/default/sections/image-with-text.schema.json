@@ -1,0 +1,25 @@
+{
+  "name": "Image With Text",
+  "settings": [
+    { "type": "image", "id": "image", "label": "Image" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Discover Timeless Beauty" },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Explore our handcrafted pieces made with love." },
+    { "type": "text", "id": "cta_text", "label": "CTA Button Text", "default": "Shop Now" },
+    { "type": "url", "id": "cta_link", "label": "CTA Link", "default": "#" },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Image Position",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#ffffff" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#000000" },
+    { "type": "color", "id": "button_bg", "label": "Button Background", "default": "#000000" },
+    { "type": "color", "id": "button_color", "label": "Button Text Color", "default": "#ffffff" },
+    { "type": "text", "id": "padding", "label": "Section Padding", "default": "60px 20px" }
+  ]
+}

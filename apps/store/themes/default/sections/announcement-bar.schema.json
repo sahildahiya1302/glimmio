@@ -1,0 +1,73 @@
+{
+  "name": "Announcement Bar",
+  "settings": [
+    {
+      "type": "select",
+      "id": "animation_type",
+      "label": "Animation Type",
+      "default": "horizontal",
+      "options": [
+        { "value": "horizontal", "label": "Horizontal Scroll" },
+        { "value": "vertical", "label": "Vertical Slide" },
+        { "value": "marquee", "label": "Marquee" }
+      ]
+    },
+    {
+      "type": "number",
+      "id": "animation_speed",
+      "label": "Animation Speed (seconds)",
+      "default": 10,
+      "min": 1,
+      "max": 60
+    },
+    {
+      "type": "select",
+      "id": "animation_direction",
+      "label": "Animation Direction",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" },
+        { "value": "up", "label": "Up" },
+        { "value": "down", "label": "Down" }
+      ]
+    },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#000000" },
+    { "type": "color", "id": "gradient_start", "label": "Gradient Start", "default": "" },
+    { "type": "color", "id": "gradient_end", "label": "Gradient End", "default": "" },
+    { "type": "text", "id": "gradient_direction", "label": "Gradient Direction", "default": "to right" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#ffffff" },
+    { "type": "text", "id": "font_size", "label": "Font Size", "default": "1rem" },
+    { "type": "text", "id": "font_weight", "label": "Font Weight", "default": "600" },
+    { "type": "text", "id": "padding", "label": "Section Padding", "default": "10px 1rem" },
+    { "type": "text", "id": "border_radius", "label": "Border Radius", "default": "0" },
+    { "type": "checkbox", "id": "global_dismissible", "label": "Allow Closing Bar", "default": false },
+    { "type": "number", "id": "cookie_lifetime", "label": "Dismiss Days", "default": 1, "min": 1, "max": 30 }
+  ],
+  "blocks": [
+    {
+      "type": "tile",
+      "name": "Announcement",
+      "settings": [
+      { "type": "text", "id": "text", "label": "Announcement Text", "default": "Welcome to our store!" },
+      { "type": "url", "id": "link", "label": "Link URL", "default": "#" },
+      { "type": "color", "id": "background_color", "label": "Tile Background Color", "default": "#000000" },
+      { "type": "checkbox", "id": "dismissible", "label": "Dismissible", "default": false },
+      { "type": "color", "id": "text_color", "label": "Tile Text Color", "default": "#ffffff" },
+      { "type": "text", "id": "padding", "label": "Tile Padding", "default": "0 1rem" },
+      { "type": "text", "id": "font_size", "label": "Tile Font Size", "default": "1rem" },
+      { "type": "text", "id": "font_weight", "label": "Tile Font Weight", "default": "600" }
+      ]
+    }
+  ],
+    "max_blocks": 5,
+  "presets": {
+    "default": {
+      "name": "Announcement Bar",
+      "blocks": [
+        {"type": "tile", "settings": {"text": "Free shipping on orders over $50", "link": "#", "background_color": "#000000", "text_color": "#ffffff"}},
+        {"type": "tile", "settings": {"text": "New arrivals dropping weekly", "link": "#", "background_color": "#000000", "text_color": "#ffffff"}}
+      ]
+    }
+  }
+}

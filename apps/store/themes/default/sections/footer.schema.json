@@ -1,0 +1,61 @@
+{
+  "name": "Footer",
+  "settings": [
+    { "type": "image", "id": "logo", "label": "Footer Logo" },
+    { "type": "textarea", "id": "copyright", "label": "Copyright", "default": "© 2025 Your Store" },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#111" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#eeeeee" },
+    { "type": "text", "id": "social_title", "label": "Social Heading", "default": "Follow Us" },
+    {
+      "type": "list",
+      "id": "social_links",
+      "label": "Social Links",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "url", "id": "url", "label": "URL" },
+          { "type": "image", "id": "icon", "label": "Icon" }
+        ]
+      }
+    },
+      {
+        "type": "list",
+        "id": "menus",
+        "label": "Footer Menus",
+        "item": {
+          "type": "object",
+          "properties": [
+            { "type": "text", "id": "title", "label": "Menu Title" },
+            {
+              "type": "list",
+              "id": "links",
+              "label": "Menu Links",
+              "item": { "type": "object", "properties": [
+                { "type": "text", "id": "label", "label": "Link Label" },
+                { "type": "url", "id": "url", "label": "Link URL" }
+              ] }
+            }
+          ]
+        }
+      }
+    ],
+    "blocks": [
+      {
+        "type": "menu",
+        "name": "Menu",
+        "settings": [
+          { "type": "text", "id": "title", "label": "Menu Title" },
+          {
+            "type": "list",
+            "id": "links",
+            "label": "Menu Links",
+            "item": { "type": "object", "properties": [
+              { "type": "text", "id": "label", "label": "Link Label" },
+              { "type": "url", "id": "url", "label": "Link URL" }
+            ] }
+          }
+        ]
+      }
+    ],
+    "max_blocks": 5
+  }

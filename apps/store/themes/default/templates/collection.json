@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "hero": {
+      "type": "hero-banner",
+      "settings": {
+        "heading": "{{ collection.title }}",
+        "subheading": "Explore the latest pieces",
+        "background_image": "uploads/banners/collection.jpg"
+      }
+    },
+    "breadcrumbs": {"type": "breadcrumbs", "settings": {}},
+    "product_grid": {"type": "product-grid", "settings": {"heading":"Our Picks"}},
+    "promo_grid": {
+      "type": "promo-grid",
+      "settings": {"heading": "More to Discover"},
+      "blocks": []
+    },
+    "recently_viewed": {"type": "recently-viewed", "settings": {}},
+    "brand_logos": {"type": "brand-logos", "settings": {"heading":"Featured Brands"}},
+    "trust_badges": {"type": "trust-badges", "settings": {}},
+    "newsletter": {"type": "newsletter", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","hero","breadcrumbs","product_grid","promo_grid","recently_viewed","brand_logos","trust_badges","newsletter","footer"]
+}

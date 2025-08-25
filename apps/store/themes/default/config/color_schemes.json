@@ -1,0 +1,14 @@
+{
+  "default": {
+    "primary": "#4B0082",
+    "secondary": "#FF6600",
+    "background": "#FFFFFF",
+    "text": "#333333"
+  },
+  "dark": {
+    "primary": "#BB86FC",
+    "secondary": "#03DAC6",
+    "background": "#121212",
+    "text": "#FFFFFF"
+  }
+}

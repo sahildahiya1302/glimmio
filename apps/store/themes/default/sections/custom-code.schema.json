@@ -1,0 +1,9 @@
+{
+  "name": "Custom Code",
+  "settings": [
+    { "type": "textarea", "id": "custom_html", "label": "Custom HTML", "default": "" },
+    { "type": "textarea", "id": "custom_css", "label": "Custom CSS", "default": "" },
+    { "type": "textarea", "id": "custom_js", "label": "Custom JavaScript", "default": "" },
+    { "type": "checkbox", "id": "load_async", "label": "Load JS async", "default": false }
+  ]
+}

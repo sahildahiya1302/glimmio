@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "order_success": {"type": "custom-code", "settings": {"custom_html": "<h1>Thank you for your purchase!</h1>"}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","order_success","footer"]
+}

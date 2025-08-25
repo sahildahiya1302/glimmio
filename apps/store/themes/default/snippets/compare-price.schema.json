@@ -1,0 +1,12 @@
+{
+  "name": "Compare Price",
+  "settings": [
+    {"type": "number", "id": "original_price", "label": "Original Price", "default": 100},
+    {"type": "number", "id": "sale_price", "label": "Sale Price", "default": 80},
+    {"type": "text", "id": "currency", "label": "Currency", "default": "$"},
+    {"type": "checkbox", "id": "show_percentage", "label": "Show % Savings", "default": true}
+  ],
+  "presets": {
+    "default": {"settings": {"original_price": 100, "sale_price": 80}}
+  }
+}

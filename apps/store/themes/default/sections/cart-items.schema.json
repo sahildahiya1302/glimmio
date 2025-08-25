@@ -1,0 +1,24 @@
+{
+  "name": "Cart Items",
+  "settings": [
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "checkbox", "id": "show_image", "label": "Show Product Image", "default": true },
+    { "type": "checkbox", "id": "show_update", "label": "Allow Quantity Update", "default": true },
+    { "type": "checkbox", "id": "show_remove", "label": "Show Remove Button", "default": true },
+    { "type": "text", "id": "currency", "label": "Currency Symbol", "default": "₹" },
+    { "type": "url", "id": "checkout_url", "label": "Checkout URL", "default": "/checkout.php" },
+    { "type": "color", "id": "button_bg", "label": "Button Background", "default": "#000000" },
+    { "type": "color", "id": "button_color", "label": "Button Text Color", "default": "#ffffff" },
+    { "type": "text", "id": "empty_message", "label": "Empty Cart Message", "default": "Your cart is currently empty." }
+  ]
+}

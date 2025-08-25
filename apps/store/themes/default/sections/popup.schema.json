@@ -1,0 +1,33 @@
+{
+  "name": "Pop-up Promo",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Popup Heading", "default": "Get 10% Off!" },
+    { "type": "textarea", "id": "subheading", "label": "Popup Text", "default": "Subscribe and receive a 10% coupon." },
+    { "type": "number", "id": "delay_seconds", "label": "Delay (seconds)", "default": 3, "min": 1, "max": 30 },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#ffffff" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#000000" },
+    { "type": "select", "id": "position", "label": "Position", "default": "bottom-right", "options": [
+        { "value": "bottom-right", "label": "Bottom Right" },
+        { "value": "bottom-left", "label": "Bottom Left" },
+        { "value": "top-right", "label": "Top Right" },
+        { "value": "top-left", "label": "Top Left" }
+    ] },
+    { "type": "text", "id": "width", "label": "Popup Width", "default": "320px" },
+    { "type": "text", "id": "border_radius", "label": "Border Radius", "default": "10px" },
+    { "type": "checkbox", "id": "overlay", "label": "Show Overlay", "default": false },
+    { "type": "checkbox", "id": "overlay_close", "label": "Close on Overlay Click", "default": false }
+  ],
+  "blocks": [
+    {
+      "type": "popup",
+      "name": "Popup",
+      "settings": [
+        { "type": "text", "id": "heading", "label": "Heading" },
+        { "type": "image", "id": "image", "label": "Image" },
+        { "type": "textarea", "id": "text", "label": "Text" },
+        { "type": "url", "id": "cta", "label": "CTA Link" }
+      ]
+    }
+  ],
+  "max_blocks": 1
+} 

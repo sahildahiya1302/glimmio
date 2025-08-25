@@ -1,0 +1,68 @@
+{
+  "name": "Quick Links",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Quick Links"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout Style",
+      "default": "inline",
+      "options": [
+        { "value": "inline", "label": "Inline Row" },
+        { "value": "grid", "label": "Grid Layout" }
+      ]
+    },
+    {
+      "type": "list",
+      "id": "links",
+      "label": "Link Items",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "text", "id": "label", "label": "Label" },
+          { "type": "image", "id": "icon", "label": "Icon" },
+          { "type": "url", "id": "url", "label": "Link URL" }
+        ]
+      },
+      "default": [
+        {
+          "label": "Returns",
+          "icon": "/assets/icons/return.svg",
+          "url": "/policies/returns"
+        },
+        {
+          "label": "Shipping",
+          "icon": "/assets/icons/shipping.svg",
+          "url": "/policies/shipping"
+        },
+        {
+          "label": "Support",
+          "icon": "/assets/icons/support.svg",
+          "url": "/contact"
+        }
+      ]
+    },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#ffffff" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#000000" },
+    { "type": "color", "id": "link_color", "label": "Link Color", "default": "#000000" },
+    { "type": "text", "id": "icon_size", "label": "Icon Size", "default": "40px" },
+    { "type": "range", "id": "columns", "label": "Grid Columns", "min": 2, "max": 6, "default": 4 }
+  ],
+  "blocks": [
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label" },
+        { "type": "image", "id": "icon", "label": "Icon" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ],
+  "max_blocks": 6
+}

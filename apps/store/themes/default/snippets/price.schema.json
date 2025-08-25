@@ -1,0 +1,16 @@
+{
+  "name": "Price",
+  "settings": [
+    {"type": "number", "id": "price", "label": "Price", "default": 0},
+    {"type": "number", "id": "sale_price", "label": "Sale Price", "default": null},
+    {"type": "text", "id": "currency_symbol", "label": "Currency Symbol", "default": "$"},
+    {"type": "select", "id": "format", "label": "Format", "options": [
+      {"value": "prefix", "label": "Prefix ($100)"},
+      {"value": "suffix", "label": "Suffix (100$)"}
+    ], "default": "prefix"},
+    {"type": "text", "id": "class", "label": "CSS Class", "default": ""}
+  ],
+  "presets": {
+    "default": {"settings": {"price": 0}}
+  }
+}

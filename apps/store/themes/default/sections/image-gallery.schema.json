@@ -1,0 +1,27 @@
+{
+  "name": "Image Gallery",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Gallery" },
+    {
+      "type": "list",
+      "id": "images",
+      "label": "Images",
+      "item": { "type": "image", "label": "Gallery Image" }
+    },
+    { "type": "range", "id": "columns", "label": "Columns", "min": 2, "max": 6, "default": 4 },
+    { "type": "text", "id": "gap", "label": "Grid Gap", "default": "20px" },
+    { "type": "checkbox", "id": "lightbox", "label": "Enable Lightbox", "default": false }
+  ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          { "type": "image", "id": "image", "label": "Image" },
+          { "type": "text", "id": "alt_text", "label": "Alt Text" },
+          { "type": "text", "id": "caption", "label": "Caption" }
+        ]
+      }
+    ],
+    "max_blocks": 10
+  }

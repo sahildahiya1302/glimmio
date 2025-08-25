@@ -1,0 +1,98 @@
+{
+  "name": "Before After Slider",
+  "settings": [
+    {
+      "type": "list",
+      "id": "slides",
+      "label": "Slides",
+      "item": {
+        "type": "group",
+        "fields": [
+          {
+            "type": "image_picker",
+            "id": "before_image",
+            "label": "Before Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "after_image",
+            "label": "After Image"
+          },
+          {
+            "type": "text",
+            "id": "label_before",
+            "label": "Before Label",
+            "default": "Before"
+          },
+          {
+            "type": "text",
+            "id": "label_after",
+            "label": "After Label",
+            "default": "After"
+          },
+          {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button Text",
+            "default": ""
+          },
+          {
+            "type": "select",
+            "id": "button_link_type",
+            "label": "Button Link Type",
+            "options": [
+              { "label": "None", "value": "" },
+              { "label": "Product", "value": "product" },
+              { "label": "Collection", "value": "collection" },
+              { "label": "Dataset", "value": "dataset" },
+              { "label": "Product Set", "value": "product_set" }
+            ],
+            "default": ""
+          },
+          {
+            "type": "text",
+            "id": "button_link_value",
+            "label": "Link Value (handle or ID)",
+            "default": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "slider_height",
+      "label": "Slider Height",
+      "default": "500px"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrows",
+      "label": "Show Navigation Arrows",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "orientation",
+      "label": "Slider Orientation",
+      "default": "horizontal",
+      "options": [
+        { "label": "Horizontal", "value": "horizontal" },
+        { "label": "Vertical", "value": "vertical" }
+      ]
+    },
+    { "type": "color", "id": "handle_color", "label": "Handle Color", "default": "#ffffff" },
+    { "type": "checkbox", "id": "auto_play", "label": "Enable Auto Play", "default": false },
+    { "type": "number", "id": "auto_interval", "label": "Auto Play Interval (s)", "default": 5, "min": 1, "max": 60 },
+    {
+      "type": "select",
+      "id": "slider_style",
+      "label": "Slider Style Variant",
+      "options": [
+        { "label": "Standard", "value": "standard" },
+        { "label": "Minimal", "value": "minimal" },
+        { "label": "Framed", "value": "framed" }
+      ],
+      "default": "standard"
+    }
+  ]
+}
