@@ -1,0 +1,84 @@
+{
+  "name": "Testimonial Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "What Our Customers Say"
+    },
+    {"type": "range", "id": "autoplay_speed", "label": "Autoplay Delay (ms)", "default": 5000, "min": 1000, "max": 10000, "step": 500},
+    {"type": "range", "id": "slides_desktop", "label": "Slides on Desktop", "default": 1, "min": 1, "max": 3},
+    {"type": "range", "id": "slides_mobile", "label": "Slides on Mobile", "default": 1, "min": 1, "max": 2},
+    {"type": "checkbox", "id": "show_arrows", "label": "Show Navigation Arrows", "default": true},
+    {"type": "checkbox", "id": "show_pagination", "label": "Show Pagination", "default": true},
+    {
+      "type": "list",
+      "id": "testimonials",
+      "label": "Testimonials",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "image", "id": "photo", "label": "Author Photo" },
+          { "type": "text", "id": "name", "label": "Author Name" },
+          { "type": "text", "id": "title", "label": "Author Title/Role" },
+          { "type": "text", "id": "message", "label": "Testimonial Text" },
+          {
+            "type": "range",
+            "id": "rating",
+            "label": "Star Rating",
+            "default": 5,
+            "min": 1,
+            "max": 5
+          }
+        ]
+      },
+      "default": [
+        {
+          "photo": "/assets/testimonial1.jpg",
+          "name": "Riya Sharma",
+          "title": "Verified Buyer",
+          "message": "Absolutely love the craftsmanship and sparkle!",
+          "rating": 5
+        },
+        {
+          "photo": "/assets/testimonial2.jpg",
+          "name": "Amit Verma",
+          "title": "Customer",
+          "message": "Quick delivery and premium packaging. Very impressed.",
+          "rating": 4
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        { "type": "image", "id": "photo", "label": "Author Photo" },
+        { "type": "text", "id": "name", "label": "Author Name" },
+        { "type": "text", "id": "title", "label": "Author Title/Role" },
+        { "type": "text", "id": "message", "label": "Testimonial Text" },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Star Rating",
+          "default": 5,
+          "min": 1,
+          "max": 5
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10  ,
+  "presets": {
+    "default": {
+      "name": "Testimonial Slider",
+      "blocks": [
+        {"type": "testimonial", "settings": {"photo": "/assets/testimonial1.jpg", "name": "User 1", "title": "Verified Buyer", "message": "Absolutely love the craftsmanship and sparkle!", "rating": 5}},
+        {"type": "testimonial", "settings": {"photo": "/assets/testimonial2.jpg", "name": "User 2", "title": "Customer", "message": "Quick delivery and premium packaging. Very impressed.", "rating": 4}}
+      ]
+    }
+  }
+}

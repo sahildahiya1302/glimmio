@@ -1,0 +1,10 @@
+# Block sensitive files
+<Files ".env">
+    Require all denied
+</Files>
+
+# Deny access to /logs path (no <Directory> in .htaccess)
+RedirectMatch 404 ^/logs(/|$)
+
+# Default index
+DirectoryIndex index.php index.html

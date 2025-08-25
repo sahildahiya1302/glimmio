@@ -1,0 +1,46 @@
+{
+  "name": "Product Tabs",
+  "settings": [
+    {
+      "type": "list",
+      "id": "tabs",
+      "label": "Tabs",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "text", "id": "label", "label": "Tab Label" },
+          { "type": "richtext", "id": "content", "label": "Tab Content" }
+        ]
+      },
+      "default": [
+        {
+          "label": "Description",
+          "content": "<p>This is the product description.</p>"
+        },
+        {
+          "label": "Shipping Info",
+          "content": "<p>Delivery within 3–5 days across India.</p>"
+        },
+        {
+          "label": "Returns",
+          "content": "<p>7-day return policy. No questions asked.</p>"
+        }
+      ]
+    },
+    { "type": "number", "id": "default_tab", "label": "Default Active Tab", "default": 0 },
+    { "type": "color", "id": "tab_color", "label": "Tab Text Color", "default": "#333" },
+    { "type": "color", "id": "tab_active_color", "label": "Active Tab Color", "default": "#000" },
+    { "type": "color", "id": "tab_bg", "label": "Tab Background", "default": "transparent" }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        { "type": "text", "id": "tab_title", "label": "Tab Title" },
+        { "type": "richtext", "id": "content", "label": "Content" }
+      ]
+    }
+  ],
+  "max_blocks": 5
+}

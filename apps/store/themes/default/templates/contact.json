@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}, "blocks": []},
+    "header": {"type": "header", "settings": {}},
+    "hero": {
+      "type": "hero-banner",
+      "settings": {
+        "heading": "Contact Us",
+        "subheading": "We'd love to hear from you",
+        "background_image": "uploads/banners/contact.jpg"
+      }
+    },
+    "contact_form": {"type": "contact-form", "settings": {}},
+    "store_location": {"type": "store-location", "settings": {}},
+    "video_banner": {"type": "video-banner", "settings": {"video_url":"uploads/videos/contact.mp4"}},
+    "brand_logos": {"type": "brand-logos", "settings": {"heading": "Our Stores"}},
+    "trust_badges": {"type": "trust-badges", "settings": {}},
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {"heading": "Subscribe for Updates","placeholder": "Enter your email"}
+    },
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","hero","contact_form","store_location","video_banner","brand_logos","trust_badges","newsletter","footer"]
+}

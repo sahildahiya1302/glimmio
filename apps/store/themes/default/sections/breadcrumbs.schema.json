@@ -1,0 +1,33 @@
+{
+  "name": "Breadcrumbs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_home_icon",
+      "label": "Show Home Icon",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label": "Link Color",
+      "default": "#555555"
+    },
+    {
+      "type": "text",
+      "id": "separator",
+      "label": "Separator Symbol",
+      "default": "›"
+    },
+    { "type": "color", "id": "background_color", "label": "Background", "default": "transparent" },
+    { "type": "text", "id": "font_size", "label": "Font Size", "default": "0.95rem" },
+    { "type": "text", "id": "font_weight", "label": "Font Weight", "default": "normal" },
+    { "type": "text", "id": "padding", "label": "Padding", "default": "1rem 20px" }
+  ]
+}

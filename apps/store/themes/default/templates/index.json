@@ -1,0 +1,196 @@
+{
+    "sections": {
+        "announcement_bar": {
+            "type": "announcement-bar",
+            "settings": [],
+            "blocks": [
+                {
+                    "type": "tile",
+                    "settings": {
+                        "text": "Free shipping on orders over $50",
+                        "link": "#"
+                    }
+                },
+                {
+                    "type": "tile",
+                    "settings": {
+                        "text": "New arrivals dropping weekly",
+                        "link": "#"
+                    }
+                },
+                {
+                    "type": "tile",
+                    "settings": {
+                        "text": "Summer sale up to 30% off",
+                        "link": "#"
+                    }
+                }
+            ]
+        },
+        "header": {
+            "type": "header",
+            "settings": [],
+            "blocks": []
+        },
+        "hero": {
+            "type": "hero-banner",
+            "settings": {
+                "heading": "New Season Eshnhjjmumusentials",
+                "subheading": "Discover the latest trends in fashion",
+                "background_image": "uploads/banners/fashion-hero.jpg"
+            },
+            "blocks": [
+                {
+                    "type": "button",
+                    "settings": {
+                        "button_text": "Shop Now",
+                        "button_link": "/collections/all"
+                    }
+                }
+            ]
+        },
+        "countdown": {
+            "type": "countdown",
+            "settings": {
+                "end_date": "2025-12-31",
+                "heading": "Year End Sale"
+            },
+            "blocks": []
+        },
+        "brand_logos": {
+            "type": "brand-logos",
+            "settings": {
+                "heading": "Trusted by Thousands"
+            },
+            "blocks": [
+                {
+                    "type": "logo",
+                    "settings": {
+                        "brand_image": "",
+                        "brand_link": "#"
+                    },
+                    "visible": true
+                }
+            ]
+        },
+        "featured_collection": {
+            "type": "featured-collection",
+            "settings": {
+                "title": "This Week's Favorites",
+                "max_products": 8
+            },
+            "blocks": []
+        },
+        "promo_grid": {
+            "type": "promo-grid",
+            "settings": {
+                "heading": "Shop by Category"
+            },
+            "blocks": [
+                {
+                    "type": "promo",
+                    "settings": {
+                        "image": "/assets/promo1.jpg",
+                        "title": "Men",
+                        "subtitle": "Latest styles",
+                        "link": "/collections/men"
+                    }
+                },
+                {
+                    "type": "promo",
+                    "settings": {
+                        "image": "/assets/promo2.jpg",
+                        "title": "Women",
+                        "subtitle": "Trending now",
+                        "link": "/collections/women"
+                    }
+                },
+                {
+                    "type": "promo",
+                    "settings": {
+                        "image": "/assets/promo3.jpg",
+                        "title": "Accessories",
+                        "subtitle": "Finish your look",
+                        "link": "/collections/accessories"
+                    }
+                }
+            ]
+        },
+        "before_after": {
+            "type": "before-after-slider",
+            "settings": {
+                "heading": "Transform Your Style"
+            },
+            "blocks": []
+        },
+        "testimonial_slider": {
+            "type": "testimonial-slider",
+            "settings": {
+                "heading": "Customer Love"
+            },
+            "blocks": [
+                {
+                    "type": "testimonial",
+                    "settings": {
+                        "photo": "",
+                        "name": "",
+                        "title": "",
+                        "message": "",
+                        "rating": 5
+                    },
+                    "visible": true
+                }
+            ]
+        },
+        "trust_badges": {
+            "type": "trust-badges",
+            "settings": [],
+            "blocks": [
+                {
+                    "type": "badge",
+                    "settings": {
+                        "icon": "",
+                        "label": ""
+                    },
+                    "visible": true
+                }
+            ]
+        },
+        "newsletter": {
+            "type": "newsletter",
+            "settings": {
+                "heading": "Join Our Newsletter",
+                "placeholder": "Enter your email"
+            },
+            "blocks": []
+        },
+        "footer": {
+            "type": "footer",
+            "settings": [],
+            "blocks": [
+                {
+                    "type": "menu",
+                    "settings": {
+                        "title": "",
+                        "links": ""
+                    },
+                    "visible": true
+                }
+            ]
+        }
+    },
+    "order": [
+        "announcement_bar",
+        "header",
+        "hero",
+        "countdown",
+        "brand_logos",
+        "featured_collection",
+        "promo_grid",
+        "before_after",
+        "testimonial_slider",
+        "trust_badges",
+        "newsletter",
+        "footer"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Video Banner",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Experience Luxury Like Never Before"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Shop handcrafted silver jewellery designed to impress."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "#"
+    },
+    {
+      "type": "select",
+      "id": "video_type",
+      "label": "Video Type",
+      "default": "mp4",
+      "options": [
+        { "value": "mp4", "label": "Self-hosted MP4" },
+        { "value": "youtube", "label": "YouTube Video ID" },
+        { "value": "vimeo", "label": "Vimeo Video ID" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video Source (URL or ID)",
+      "default": "https://cdn.example.com/promo.mp4"
+    },
+    {
+      "type": "checkbox",
+      "id": "overlay",
+      "label": "Enable Dark Overlay",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay Color",
+      "default": "rgba(0,0,0,0.4)"
+    },
+    {
+      "type": "range",
+      "id": "banner_height",
+      "label": "Banner Height (vh)",
+      "min": 50,
+      "max": 100,
+      "default": 80
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Autoplay",
+      "default": true
+    }
+  ],
+    "blocks": [
+      {
+        "type": "video",
+        "name": "Video",
+        "settings": [
+          { "type": "text", "id": "video_url", "label": "Video URL" },
+          { "type": "text", "id": "heading", "label": "Heading" },
+          { "type": "text", "id": "cta", "label": "CTA" }
+        ]
+      }
+    ],
+    "max_blocks": 1
+  }

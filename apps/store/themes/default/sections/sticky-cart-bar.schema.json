@@ -1,0 +1,50 @@
+{
+  "name": "Sticky Cart Bar",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "Enable Sticky Cart Bar",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Add to Cart Button Text",
+      "default": "Add to Cart"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Bar Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_mobile",
+      "label": "Show on Mobile",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_product_image",
+      "label": "Show Product Image",
+      "default": true
+    },
+    { "type": "select", "id": "position", "label": "Bar Position", "default": "bottom", "options": [ {"value":"bottom","label":"Bottom"}, {"value":"top","label":"Top"} ] },
+    { "type": "number", "id": "bar_height", "label": "Bar Height (px)", "default": 60 },
+    { "type": "checkbox", "id": "hide_until_scroll", "label": "Hide Until Scrolled", "default": false }
+  ]
+}

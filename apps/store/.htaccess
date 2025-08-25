@@ -1,0 +1,11 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect all requests to index.php except existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# PHP error reporting settings
+php_flag display_errors On
+php_value error_reporting 32767

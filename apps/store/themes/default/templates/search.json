@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "hero": {"type": "hero-banner", "settings": {"heading":"Search","subheading":"Find your style","background_image":"uploads/banners/search.jpg"}},
+    "search_results": {"type": "search-results", "settings": {}},
+    "brand_logos": {"type": "brand-logos", "settings": {"heading":"Popular Brands"}},
+    "promo_grid": {"type": "promo-grid", "settings": {"heading":"Trending Categories"}, "blocks": []},
+    "newsletter": {"type": "newsletter", "settings": {}},
+    "trust_badges": {"type": "trust-badges", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","hero","search_results","brand_logos","promo_grid","newsletter","trust_badges","footer"]
+}

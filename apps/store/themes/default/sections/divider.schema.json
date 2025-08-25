@@ -1,0 +1,30 @@
+{
+  "name": "Divider",
+  "settings": [
+    {
+      "type": "select",
+      "id": "orientation",
+      "label": "Orientation",
+      "default": "horizontal",
+      "options": [
+        { "value": "horizontal", "label": "Horizontal" },
+        { "value": "vertical", "label": "Vertical" }
+      ]
+    },
+    { "type": "text", "id": "size", "label": "Thickness", "default": "1px" },
+    {
+      "type": "select",
+      "id": "style",
+      "label": "Style",
+      "default": "solid",
+      "options": [
+        { "value": "solid", "label": "Solid" },
+        { "value": "dashed", "label": "Dashed" },
+        { "value": "dotted", "label": "Dotted" },
+        { "value": "double", "label": "Double" }
+      ]
+    },
+    { "type": "color", "id": "color", "label": "Color", "default": "#e0e0e0" },
+    { "type": "text", "id": "margin", "label": "Margin", "default": "20px 0" }
+  ]
+}

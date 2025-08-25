@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "hero": {
+      "type": "hero-banner",
+      "settings": {"heading":"Our Blog","subheading":"Insights and inspiration","background_image":"uploads/banners/blog.jpg"}
+    },
+    "blog_posts": {"type": "blog-posts", "settings": {"heading":"Latest Stories"}},
+    "promo_grid": {
+      "type": "promo-grid",
+      "settings": {"heading": "Explore Categories"},
+      "blocks": []
+    },
+    "brand_logos": {"type": "brand-logos", "settings": {"heading":"Partners"}},
+    "newsletter": {"type": "newsletter", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","hero","blog_posts","promo_grid","brand_logos","newsletter","footer"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Contact Form",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Form Heading", "default": "Get in Touch" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "We usually respond within 24 hours." },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "text", "id": "button_text", "label": "Button Text", "default": "Send Message" },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#f8f8f8" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#000000" },
+    { "type": "color", "id": "button_bg", "label": "Button Background", "default": "#000000" },
+    { "type": "color", "id": "button_color", "label": "Button Text Color", "default": "#ffffff" },
+    { "type": "text", "id": "padding", "label": "Section Padding", "default": "50px 20px" },
+    { "type": "text", "id": "border_radius", "label": "Border Radius", "default": "8px" },
+    { "type": "textarea", "id": "success_message", "label": "Success Message", "default": "Thanks for reaching out!" },
+    { "type": "url", "id": "submit_url", "label": "Submit URL", "default": "/submit-contact.php" }
+  ]
+}

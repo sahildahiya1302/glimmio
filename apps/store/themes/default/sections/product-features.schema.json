@@ -1,0 +1,98 @@
+{
+  "name": "Product Features",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Product Features"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading Text",
+      "default": ""
+    },
+    {
+      "type": "list",
+      "id": "features",
+      "label": "Feature Tiles",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "image", "id": "icon", "label": "Icon" },
+          { "type": "text", "id": "title", "label": "Title" },
+          { "type": "textarea", "id": "description", "label": "Description" }
+        ]
+      },
+      "default": [
+        {
+          "icon": "/assets/icons/fast-shipping.svg",
+          "title": "Free Fast Shipping",
+          "description": "All orders are shipped within 24 hours with no extra cost."
+        },
+        {
+          "icon": "/assets/icons/pure-silver.svg",
+          "title": "100% Pure Silver",
+          "description": "Certified sterling silver (92.5%) in every piece you buy."
+        },
+        {
+          "icon": "/assets/icons/warranty.svg",
+          "title": "1-Year Warranty",
+          "description": "Enjoy worry-free wear with our quality guarantee."
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "label": "Columns",
+      "min": 2,
+      "max": 6,
+      "default": 4
+    },
+    {
+      "type": "color",
+      "id": "tile_background",
+      "label": "Tile Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon Size (px)",
+      "min": 30,
+      "max": 80,
+      "default": 50
+    },
+    {
+      "type": "checkbox",
+      "id": "hover_shadow",
+      "label": "Enable Hover Lift",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Feature",
+      "settings": [
+        { "type": "image", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "description", "label": "Description" }
+      ]
+    }
+  ],
+  "max_blocks": 5
+}

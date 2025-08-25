@@ -1,0 +1,38 @@
+{
+  "name": "Icon List",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Why Shop With Us" },
+    {
+      "type": "list",
+      "id": "icons",
+      "label": "Icons",
+      "item": {
+        "type": "object",
+        "properties": [
+          { "type": "image", "id": "image", "label": "Icon Image" },
+          { "type": "text", "id": "label", "label": "Label" }
+        ]
+      }
+    },
+    { "type": "range", "id": "columns", "label": "Columns", "min": 2, "max": 6, "default": 4 },
+    { "type": "text", "id": "icon_size", "label": "Icon Size", "default": "50px" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#333333" },
+    { "type": "select", "id": "text_align", "label": "Text Alignment", "default": "center", "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+    ] }
+  ],
+    "blocks": [
+      {
+        "type": "icon",
+        "name": "Icon",
+        "settings": [
+          { "type": "image", "id": "icon", "label": "Icon" },
+          { "type": "text", "id": "title", "label": "Title" },
+          { "type": "textarea", "id": "description", "label": "Description" }
+        ]
+      }
+    ],
+    "max_blocks": 5
+  }

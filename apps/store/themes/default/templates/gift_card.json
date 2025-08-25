@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "gift_info": {
+      "type": "custom-code",
+      "settings": {
+        "custom_html": "<section class=\"gift-card\"><h1>Gift Card</h1><p>Redeem online or in-store.</p></section>",
+        "custom_css": ".gift-card{text-align:center;padding:40px}"
+      }
+    },
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","gift_info","footer"]
+}

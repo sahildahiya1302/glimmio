@@ -1,0 +1,24 @@
+{
+  "name": "Button",
+  "settings": [
+    {"type": "text", "id": "label", "label": "Button Label", "default": "Click Me"},
+    {"type": "url", "id": "url", "label": "URL", "default": "#"},
+    {"type": "select", "id": "style", "label": "Style", "options": [
+      {"value": "primary", "label": "Primary"},
+      {"value": "secondary", "label": "Secondary"},
+      {"value": "tertiary", "label": "Tertiary"}
+    ], "default": "primary"},
+    {"type": "select", "id": "size", "label": "Size", "options": [
+      {"value": "sm", "label": "Small"},
+      {"value": "md", "label": "Medium"},
+      {"value": "lg", "label": "Large"}
+    ], "default": "md"},
+    {"type": "text", "id": "icon", "label": "Left Icon", "default": ""},
+    {"type": "checkbox", "id": "new_tab", "label": "Open in new tab", "default": false}
+  ],
+  "presets": {
+    "default": {
+      "settings": {"label": "Click Me", "url": "#"}
+    }
+  }
+}

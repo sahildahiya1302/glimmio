@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "compare_table": {
+      "type": "custom-code",
+      "settings": {
+        "custom_html": "<h1>Compare Products</h1>",
+        "custom_css": ""
+      }
+    },
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","compare_table","footer"]
+}
