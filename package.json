@@ -1,0 +1,40 @@
+{
+  "name": "glimmio-ecosystem",
+  "version": "1.0.0",
+  "description": "Multi-Application Ecosystem with CRM, IMX, Store, and Main Website",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:crm": "cd apps/crm && npm run dev",
+    "dev:crm-ui": "cd apps/crm-ui && npm run dev",
+    "dev:imx": "cd apps/imx && npm run dev",
+    "dev:store": "cd apps/store && npm run dev",
+    "build:crm": "cd apps/crm && npm run build",
+    "build:crm-ui": "cd apps/crm-ui && npm run build",
+    "build:imx": "cd apps/imx && npm run build",
+    "build:store": "cd apps/store && npm run build",
+    "build:all": "npm run build:crm && npm run build:crm-ui && npm run build:imx && npm run build:store",
+    "test:crm": "cd apps/crm && npm test",
+    "test:crm-ui": "cd apps/crm-ui && npm test",
+    "test:imx": "cd apps/imx && npm test",
+    "test:store": "cd apps/store && npm test",
+    "test:all": "npm run test:crm && npm run test:crm-ui && npm run test:imx && npm run test:store",
+    "install:all": "npm install && cd apps/crm && npm install && cd ../crm-ui && npm install && cd ../imx && npm install && cd ../store && npm install"
+  },
+  "keywords": [
+    "crm",
+    "imx",
+    "store",
+    "ecommerce",
+    "influencer-marketing",
+    "multi-application"
+  ],
+  "author": "Glimmio Team",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sahildahiya1302/Glimmio.git"
+  }
+}
