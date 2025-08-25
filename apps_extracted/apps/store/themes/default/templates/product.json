@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "breadcrumbs": {"type": "breadcrumbs", "settings": {}},
+    "featured_product": {"type": "featured-product", "settings": {"show_price": true,"show_add_to_cart": true}},
+    "product_features": {"type": "product-features", "settings": {"heading":"Why You'll Love It"}},
+    "trust_badges": {"type": "trust-badges", "settings": {}},
+    "product_tabs": {"type": "product-tabs", "settings": {}},
+    "sticky_cart_bar": {"type": "sticky-cart-bar", "settings": {}},
+    "product_recommendations": {"type": "product-recommendations", "settings": {}},
+    "product_reviews": {"type": "product-reviews", "settings": {}},
+    "recently_viewed": {"type": "recently-viewed", "settings": {}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","breadcrumbs","featured_product","product_features","trust_badges","product_tabs","sticky_cart_bar","product_recommendations","product_reviews","recently_viewed","footer"]
+}

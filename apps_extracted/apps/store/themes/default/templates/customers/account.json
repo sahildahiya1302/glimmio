@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "account_content": {
+      "type": "custom-code",
+      "settings": {
+        "custom_html": "<h1>Account</h1><ul class=\"account-links\"><li><a href='/customers/orders'>Orders</a></li><li><a href='/customers/profile'>Profile</a></li><li><a href='/customers/addresses'>Saved Addresses</a></li><li><a href='/help-center'>Help Center</a></li><li><a href='/language'>Language</a></li><li><a href='/reviews'>Reviews</a></li><li><a href='/policies'>Terms &amp; Policies</a></li><li><a href='/faq'>FAQ</a></li><li><a href='/settings'>Settings</a></li></ul>"
+      }
+    },
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar", "header", "account_content", "footer"]
+}

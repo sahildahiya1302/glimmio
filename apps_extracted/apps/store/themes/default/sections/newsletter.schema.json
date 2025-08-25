@@ -1,0 +1,26 @@
+{
+  "name": "Newsletter Signup",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Subscribe to our Newsletter" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "Get special offers, updates, and more." },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "text", "id": "placeholder", "label": "Email Placeholder", "default": "Enter your email" },
+    { "type": "text", "id": "button_text", "label": "Button Text", "default": "Subscribe" },
+    { "type": "url", "id": "action_url", "label": "Form Action URL", "default": "/subscribe-newsletter.php" },
+    { "type": "color", "id": "background_color", "label": "Background Color", "default": "#f8f8f8" },
+    { "type": "color", "id": "text_color", "label": "Text Color", "default": "#000000" },
+    { "type": "color", "id": "button_bg", "label": "Button Background", "default": "#000000" },
+    { "type": "color", "id": "button_color", "label": "Button Text Color", "default": "#ffffff" },
+    { "type": "textarea", "id": "success_message", "label": "Success Message", "default": "Thanks for subscribing!" }
+  ]
+}

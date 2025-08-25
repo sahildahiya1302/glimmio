@@ -1,0 +1,155 @@
+<% include('../layout.ejs') %>
+
+<div class="container-fluid">
+    <!-- Hero Section -->
+    <div class="row bg-primary text-white py-5 mb-5 rounded">
+        <div class="col-12 text-center">
+            <h1 class="display-4 fw-bold">Digital Agency CRM System</h1>
+            <p class="lead fs-4">Streamlined client management and team collaboration</p>
+            <div class="mt-4">
+                <a href="/auth/login" class="btn btn-light btn-lg me-3">
+                    <i class="bi bi-box-arrow-in-right me-2"></i>Login to Dashboard
+                </a>
+                <a href="#features" class="btn btn-outline-light btn-lg">
+                    <i class="bi bi-info-circle me-2"></i>Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" class="row mb-5">
+        <div class="col-12 text-center mb-5">
+            <h2 class="display-5 fw-bold mb-4">Powerful Features</h2>
+            <p class="lead fs-4">Designed specifically for digital agencies</p>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-primary">
+                <div class="card-body text-center">
+                    <div class="feature-icon bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-people-fill fs-1"></i>
+                    </div>
+                    <h3 class="card-title">Lead Management</h3>
+                    <p class="card-text">Track and manage all client leads from initial contact to conversion with detailed status tracking.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-success">
+                <div class="card-body text-center">
+                    <div class="feature-icon bg-success text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-list-check fs-1"></i>
+                    </div>
+                    <h3 class="card-title">Task Management</h3>
+                    <p class="card-text">Assign tasks to team members with deadlines, priorities, and progress tracking for all projects.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-warning">
+                <div class="card-body text-center">
+                    <div class="feature-icon bg-warning text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                        <i class="bi bi-currency-dollar fs-1"></i>
+                    </div>
+                    <h3 class="card-title">Payment Tracking</h3>
+                    <p class="card-text">Monitor client billing status, payment history, and overdue accounts with detailed financial reports.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="row bg-light py-5 mb-5 rounded">
+        <div class="col-12 text-center mb-5">
+            <h2 class="display-5 fw-bold mb-4">Agency Services</h2>
+            <p class="lead fs-4">Comprehensive solutions for your digital marketing needs</p>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-graph-up fs-1 text-primary"></i>
+                    <h5 class="card-title mt-3">Performance Marketing</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-chat-dots fs-1 text-success"></i>
+                    <h5 class="card-title mt-3">Social Media</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-star fs-1 text-warning"></i>
+                    <h5 class="card-title mt-3">Influencer Marketing</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-search fs-1 text-info"></i>
+                    <h5 class="card-title mt-3">SEO</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-code-slash fs-1 text-dark"></i>
+                    <h5 class="card-title mt-3">Website Development</h5>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-2 mb-4">
+            <div class="card border-0 text-center">
+                <div class="card-body">
+                    <i class="bi bi-phone fs-1 text-primary"></i>
+                    <h5 class="card-title mt-3">App Development</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="row bg-dark text-white py-5 rounded">
+        <div class="col-12 text-center">
+            <h2 class="display-5 fw-bold mb-4">Ready to Get Started?</h2>
+            <p class="lead fs-4 mb-4">Join hundreds of digital agencies using our CRM system</p>
+            <a href="/auth/login" class="btn btn-primary btn-lg">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Login to Your Account
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+.feature-icon {
+    transition: transform 0.3s ease;
+}
+
+.feature-icon:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+</style>

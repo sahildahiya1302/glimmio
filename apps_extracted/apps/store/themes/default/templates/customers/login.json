@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "announcement_bar": {"type": "announcement-bar", "settings": {}},
+    "header": {"type": "header", "settings": {}},
+    "login_form": {"type": "custom-code", "settings": {"custom_html": "<h1>Customer Login</h1>"}},
+    "footer": {"type": "footer", "settings": {}}
+  },
+  "order": ["announcement_bar","header","login_form","footer"]
+}

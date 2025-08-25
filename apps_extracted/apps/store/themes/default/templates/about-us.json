@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "announcement_bar": {
+      "type": "announcement-bar",
+      "settings": {},
+      "blocks": [
+        {"type":"tile","settings":{"text":"Worldwide shipping","link":"#"}},
+        {"type":"tile","settings":{"text":"Quality guaranteed","link":"#"}}
+      ]
+    },
+    "header": {"type": "header", "settings": {}, "blocks": []},
+    "hero": {
+      "type": "hero-banner",
+      "settings": {
+        "heading": "Our Story",
+        "subheading": "Crafting style since 1998",
+        "background_image": "uploads/banners/about.jpg"
+      },
+      "blocks": []
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "settings": {"content": "<p>We are committed to delivering quality and value.</p>"}
+    },
+    "image_with_text": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "uploads/images/team.jpg",
+        "heading": "The People Behind the Brand",
+        "text": "Passionate designers and makers crafting premium fashion."
+      }
+    },
+    "step_guide": {
+      "type": "step-guide",
+      "settings": {"heading":"How We Work","subheading":"From design to doorstep"},
+      "blocks": []
+    },
+    "faq_section": {
+      "type": "faq-section",
+      "settings": {"heading": "Your Questions"},
+      "blocks": []
+    },
+    "brand_logos": {
+      "type": "brand-logos",
+      "settings": {"heading":"As Seen In"},
+      "blocks": []
+    },
+    "video_banner": {
+      "type": "video-banner",
+      "settings": {"video_url": "uploads/videos/story.mp4"}
+    },
+    "testimonial_slider": {
+      "type": "testimonial-slider",
+      "settings": {"heading":"What Customers Say"},
+      "blocks": []
+    },
+    "trust_badges": {"type": "trust-badges", "settings": {}},
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {"heading": "Stay Updated","placeholder": "Your email"}
+    },
+    "footer": {"type": "footer", "settings": {}, "blocks": []}
+  },
+  "order": ["announcement_bar","header","hero","rich_text","image_with_text","step_guide","faq_section","brand_logos","video_banner","testimonial_slider","trust_badges","newsletter","footer"]
+}

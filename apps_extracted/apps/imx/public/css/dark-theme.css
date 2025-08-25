@@ -1,0 +1,31 @@
+/* Dark mode overrides */
+body.dark-mode {
+  background: #0f0f0f;
+  color: #e0e0e0;
+}
+body.dark-mode .top-nav,
+body.dark-mode .filter-bar,
+body.dark-mode .comment-popup .popup-content {
+  background: #1a1a1a;
+  border-color: #333;
+}
+body.dark-mode .sidebar,
+body.dark-mode .main-content,
+body.dark-mode .feed-card,
+body.dark-mode .login-container,
+body.dark-mode .card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border-color: #333;
+}
+body.dark-mode a {
+  color: #ff88b7;
+}
+body.dark-mode .filter-bar .chip {
+  background: #333;
+  color: #eee;
+}
+body.dark-mode .filter-bar .chip.active {
+  background: var(--accent-color);
+  color: #fff;
+}

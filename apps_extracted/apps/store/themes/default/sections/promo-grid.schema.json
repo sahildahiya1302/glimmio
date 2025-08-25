@@ -1,0 +1,32 @@
+{
+  "name": "Promo Grid",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Section Heading", "default": "Featured Promotions" },
+    { "type": "textarea", "id": "subheading", "label": "Subheading", "default": "" },
+    { "type": "range", "id": "columns", "label": "Grid Columns", "min": 2, "max": 4, "default": 3 },
+    { "type": "color", "id": "overlay_color", "label": "Overlay Color", "default": "rgba(0,0,0,0.4)" },
+    { "type": "list", "id": "promos", "label": "Promo Tiles", "item": {
+        "type": "object",
+        "properties": [
+          { "type": "image", "id": "image", "label": "Background Image" },
+          { "type": "text", "id": "title", "label": "Title" },
+          { "type": "textarea", "id": "subtext", "label": "Subtext" },
+          { "type": "url", "id": "link", "label": "Link URL" }
+        ]
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "promo",
+      "name": "Promo",
+      "settings": [
+        { "type": "image", "id": "image", "label": "Image" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "text", "id": "subtitle", "label": "Subtitle" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ],
+  "max_blocks": 6
+}

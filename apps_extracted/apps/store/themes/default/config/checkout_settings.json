@@ -1,0 +1,13 @@
+{
+  "header": {
+    "logo": "/themes/default/assets/images/logo.png",
+    "background": "#ffffff",
+    "progress_bar": true
+  },
+  "fields": {
+    "phone": {"enabled": true, "required": true},
+    "company": {"enabled": false},
+    "order_notes": {"enabled": true}
+  },
+  "payment_methods": ["cod", "stripe"]
+}

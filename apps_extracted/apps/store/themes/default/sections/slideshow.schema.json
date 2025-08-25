@@ -1,0 +1,39 @@
+{
+  "name": "Slideshow",
+  "settings": [
+    {"type": "select", "id": "effect", "label": "Transition Effect", "default": "slide", "options": [{"value":"slide","label":"Slide"},{"value":"fade","label":"Fade"}]},
+    {"type": "range", "id": "autoplay_speed", "label": "Autoplay Delay (ms)", "default": 4000, "min": 1000, "max": 10000, "step": 500},
+    {"type": "text", "id": "overlay_gradient", "label": "Overlay Gradient CSS", "default": ""}
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        { "type": "image", "id": "image", "label": "Background Image" },
+        { "type": "text", "id": "title", "label": "Heading" },
+        { "type": "text", "id": "subtitle", "label": "Subheading" },
+        { "type": "text", "id": "button_text", "label": "Button Text" },
+        { "type": "url", "id": "button_link", "label": "Button Link" }
+      ]
+    }
+  ],
+  "max_blocks": 5,
+  "presets": {
+    "default": {
+      "name": "Slideshow",
+      "blocks": [
+        {
+          "type": "slide",
+          "settings": {
+            "image": "/assets/banner1.jpg",
+            "title": "New Arrivals",
+            "subtitle": "Explore our latest jewelry collection",
+            "button_text": "Shop Now",
+            "button_link": "/collections/new"
+          }
+        }
+      ]
+    }
+  }
+}

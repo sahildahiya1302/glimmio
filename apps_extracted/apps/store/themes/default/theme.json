@@ -1,0 +1,11 @@
+{
+  "name": " Main Theme",
+  "settings": [
+    { "type": "font", "id": "font_body", "label": "Body Font", "default": "Inter" },
+    { "type": "color", "id": "color_primary", "label": "Primary Color", "default": "#c2a47b" },
+    { "type": "color", "id": "color_text", "label": "Body Text Color", "default": "#1c1c1c" },
+    { "type": "select", "id": "button_style", "label": "Default Button Style", "options": ["filled", "outlined", "soft"], "default": "filled" },
+    { "type": "image", "id": "favicon", "label": "Favicon" },
+    { "type": "color", "id": "background_color", "label": "Default Background", "default": "#ffffff" }
+  ]
+}

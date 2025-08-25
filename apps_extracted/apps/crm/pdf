@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Error: Failed to lookup view &quot;500&quot; in views directory &quot;/var/www/glimmio/apps/crm/views&quot;<br> &nbsp; &nbsp;at Function.render (/var/www/glimmio/apps/crm/node_modules/express/lib/application.js:597:17)<br> &nbsp; &nbsp;at ServerResponse.render (/var/www/glimmio/apps/crm/node_modules/express/lib/response.js:1049:7)<br> &nbsp; &nbsp;at errorHandler (file:///var/www/glimmio/apps/crm/middlewares/error.js:8:51)<br> &nbsp; &nbsp;at Layer.handle_error (/var/www/glimmio/apps/crm/node_modules/express/lib/router/layer.js:71:5)<br> &nbsp; &nbsp;at trim_prefix (/var/www/glimmio/apps/crm/node_modules/express/lib/router/index.js:326:13)<br> &nbsp; &nbsp;at /var/www/glimmio/apps/crm/node_modules/express/lib/router/index.js:286:9<br> &nbsp; &nbsp;at Function.process_params (/var/www/glimmio/apps/crm/node_modules/express/lib/router/index.js:346:12)<br> &nbsp; &nbsp;at IncomingMessage.next (/var/www/glimmio/apps/crm/node_modules/express/lib/router/index.js:280:10)<br> &nbsp; &nbsp;at done (/var/www/glimmio/apps/crm/node_modules/express/lib/response.js:1044:25)<br> &nbsp; &nbsp;at Function.render (/var/www/glimmio/apps/crm/node_modules/express/lib/application.js:599:14)</pre>
+</body>
+</html>

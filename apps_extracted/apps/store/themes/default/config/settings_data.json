@@ -1,0 +1,32 @@
+{
+  "title": "Midnight Store",
+  "description": "Welcome to our store",
+  "color_primary": "#000000",
+  "color_scheme": "default",
+  "store_address": "123 Example St, City",
+  "store_phone": "1-800-555-1234",
+  "social_links": [
+    {"name": "Facebook", "url": "https://facebook.com"},
+    {"name": "Twitter", "url": "https://twitter.com"}
+  ],
+  "menus": {
+    "main": [
+      {"title": "Home", "url": "/"},
+      {"title": "Shop", "url": "/collections/all"},
+      {"title": "Blog", "url": "/blog"},
+      {"title": "Contact", "url": "/page/contact"}
+    ],
+    "footer": [
+      {"title": "Privacy", "url": "/page/privacy"},
+      {"title": "Terms", "url": "/page/terms"}
+    ]
+  },
+  "hero_image": "images/hero.jpg",
+  "hero_title": "Welcome to Midnight",
+  "hero_subtitle": "Discover new products",
+  "hero_button": {"label": "Shop Now", "url": "/collections/all"},
+  "featured_collection": "summer",
+  "newsletter_action": "/backend/utils/send-mail.php",
+  "countdown_end": "2025-01-01 00:00:00",
+  "custom_css": ""
+}

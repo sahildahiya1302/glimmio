@@ -1,0 +1,54 @@
+/* Base theme for influencer marketing platform */
+:root {
+  --primary-color: #ff3366;
+  --accent-color: #ff6f91;
+  --bg-color: #f8f9fb;
+  --text-color: #222;
+  --border-color: #e5e5e5;
+  --radius: 12px;
+  --transition: 0.2s ease-in-out;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  color: var(--accent-color);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius);
+  padding: 0.6rem 1.2rem;
+  background: var(--primary-color);
+  color: #fff;
+  transition: background var(--transition);
+}
+button:hover {
+  background: var(--accent-color);
+}
+input, textarea, select {
+  font-family: inherit;
+  padding: 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  width: 100%;
+}
+.card {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}

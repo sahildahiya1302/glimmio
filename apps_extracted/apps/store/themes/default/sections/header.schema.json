@@ -1,0 +1,244 @@
+{
+  "name": "Power Header",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "logo_image",
+      "label": "Logo Image"
+    },
+    {
+      "type": "text",
+      "id": "logo_text",
+      "label": "Logo Text",
+      "default": "Your Store"
+    },
+    {
+      "type": "color",
+      "id": "logo_text_color",
+      "label": "Logo Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "logo_font_family",
+      "label": "Logo Font Family",
+      "default": "Arial, sans-serif"
+    },
+    {
+      "type": "number",
+      "id": "logo_font_size",
+      "label": "Logo Font Size (px)",
+      "default": 24
+    },
+    {
+      "type": "number",
+      "id": "logo_width",
+      "label": "Logo Image Max Width (px)",
+      "default": 120
+    },
+    {
+      "type": "select",
+      "id": "logo_alignment",
+      "label": "Logo Alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_search",
+      "label": "Show Search Bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "announcement_enabled",
+      "label": "Show Announcement Bar",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement Text",
+      "default": "Free shipping on orders over \u20b9999!"
+    },
+    {
+      "type": "color",
+      "id": "announcement_bg",
+      "label": "Announcement Background",
+      "default": "#f44336"
+    },
+    {
+      "type": "color",
+      "id": "announcement_color",
+      "label": "Announcement Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "menu_overlay_color",
+      "label": "Mobile Menu Overlay",
+      "default": "rgba(0,0,0,0.7)"
+    },
+    {
+      "type": "text",
+      "id": "search_placeholder",
+      "label": "Search Placeholder",
+      "default": "Search Gifts for your dearest..."
+    },
+    {
+      "type": "list",
+      "id": "menu_items",
+      "label": "Menu Items",
+      "default": [],
+      "item": {
+        "type": "group",
+        "fields": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "show_on_desktop",
+            "label": "Show on Desktop",
+            "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "show_on_mobile",
+            "label": "Show on Mobile",
+            "default": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "header_sticky",
+      "label": "Sticky Header",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "label": "Padding Top (px)",
+      "default": 10
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "label": "Padding Bottom (px)",
+      "default": 10
+    },
+    {
+      "type": "number",
+      "id": "margin_top",
+      "label": "Margin Top (px)",
+      "default": 0
+    },
+    {
+      "type": "number",
+      "id": "margin_bottom",
+      "label": "Margin Bottom (px)",
+      "default": 0
+    },
+    {
+      "type": "select",
+      "id": "entry_animation",
+      "label": "Entry Animation",
+      "default": "none",
+      "options": [
+        { "value": "none", "label": "None" },
+        { "value": "fade-in", "label": "Fade In" },
+        { "value": "slide-up", "label": "Slide Up" },
+        { "value": "zoom-in", "label": "Zoom In" }
+      ]
+    },
+    {
+      "type": "number",
+      "id": "animation_delay",
+      "label": "Animation Delay (ms)",
+      "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "animation_repeat",
+      "label": "Repeat Animation",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_desktop",
+      "label": "Show on Desktop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_on_mobile",
+      "label": "Show on Mobile",
+      "default": true
+    },
+    {
+      "type": "list",
+      "id": "pages_visibility",
+      "label": "Visible on Pages",
+      "default": [],
+      "item": {
+        "type": "text",
+        "label": "Page Slug"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS",
+      "default": ""
+    },
+    {
+      "type": "text",
+      "id": "custom_id",
+      "label": "Custom ID",
+      "default": ""
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class",
+      "default": ""
+    },
+    {
+      "type": "textarea",
+      "id": "html_above",
+      "label": "Custom HTML Above",
+      "default": ""
+    },
+    {
+      "type": "textarea",
+      "id": "html_below",
+      "label": "Custom HTML Below",
+      "default": ""
+    }
+  ]
+}

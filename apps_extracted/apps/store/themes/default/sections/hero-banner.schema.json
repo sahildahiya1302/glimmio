@@ -1,0 +1,114 @@
+{
+  "name": "Hero Banner",
+  "settings": [
+    {
+      "type": "image",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your Hero Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Your supporting text or tagline goes here."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "#"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "default": "primary",
+      "options": [
+        {"value": "primary", "label": "Primary"},
+        {"value": "outline", "label": "Outline"},
+        {"value": "link", "label": "Link"}
+      ]
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        { "label": "Left", "value": "left" },
+        { "label": "Center", "value": "center" },
+        { "label": "Right", "value": "right" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay Color",
+      "default": "rgba(0, 0, 0, 0.4)"
+    },
+    {
+      "type": "text",
+      "id": "overlay_gradient",
+      "label": "Overlay Gradient CSS",
+      "default": ""
+    },
+    {
+      "type": "url",
+      "id": "video_url",
+      "label": "Background Video URL"
+    },
+    {
+      "type": "text",
+      "id": "height",
+      "label": "Banner Height (e.g. 600px)",
+      "default": "600px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        { "type": "text", "id": "button_text", "label": "Button Text", "default": "Shop Now" },
+        { "type": "url", "id": "button_link", "label": "Button Link", "default": "#" }
+      ]
+    }
+  ],
+  "max_blocks": 2,
+  "presets": {
+    "default": {
+      "name": "Hero Banner",
+      "settings": {
+        "background_image": "assets/images/hero.jpg",
+        "heading": "New Season Essentials",
+        "subheading": "Discover the latest trends in fashion",
+        "button_text": "Shop Now",
+        "button_link": "/collections/all"
+      },
+      "blocks": [
+        {
+          "type": "button",
+          "settings": {"button_text": "Shop Now", "button_link": "/collections/all"}
+        }
+      ]
+    }
+  }
+}

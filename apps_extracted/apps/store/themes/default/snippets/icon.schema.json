@@ -1,0 +1,15 @@
+{
+  "name": "Icon",
+  "settings": [
+    {"type": "text", "id": "icon_name", "label": "Icon Name", "default": "star"},
+    {"type": "color", "id": "icon_color", "label": "Icon Color", "default": "#000000"},
+    {"type": "text", "id": "icon_size", "label": "Icon Size (px)", "default": "24"},
+    {"type": "color", "id": "hover_color", "label": "Hover Color", "default": ""},
+    {"type": "text", "id": "label", "label": "Aria Label", "default": ""}
+  ],
+  "presets": {
+    "default": {
+      "settings": {"icon_name": "star"}
+    }
+  }
+}
